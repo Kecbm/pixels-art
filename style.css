@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(28, 27, 34);
+}
+
+main {
+  background-color: rgb(43, 42, 51);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  height: 400px;
+}
+
+h1 {
+  color:  #FFFFFF;
+  font-family: Oswald;
+  font-size: 46px;
+  text-align: center;
+}
+
+#botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+button {
+  background-color: rgb(66, 65, 77);
+  font-family: Open Sans Condensed;
+  font-weight: bold;
+  font-size: 18px;
+  width: 159px;
+  height: 30px;
+  align-items: stretch;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+}
+
+.color {
+  border: 1px solid black;
+}
+
+#color-palette {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+#primeiro {
+  width: 40px;
+  height: 40px;
+}
+
+#segundo {
+  width: 40px;
+  height: 40px;
+}
+
+#terceiro {
+  width: 40px;
+  height: 40px;
+}
+
+#quarto {
+  width: 40px;
+  height: 40px;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+#pixel-board {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  left: 680px;
+  position: relative;
+}
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
